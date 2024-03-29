@@ -5,9 +5,7 @@ function check_if_top_block_has_hat(block){
 
 Blockly.Python['ultrasonic'] = function(block) {
    if (!check_if_top_block_has_hat(block)) return ['', Blockly.Python.ORDER_NONE];
-
    Blockly.Python.definitions_['from_BeeBrain_import_bee'] = 'from BeeBrain import bee';
-
    Blockly.Python.definitions_['from_BeeUltrasonic_import_BeeUltrasonic'] = 'from BeeUltrasonic import BeeUltrasonic';
 
    var port = block.getFieldValue('port');
@@ -19,9 +17,7 @@ Blockly.Python['ultrasonic'] = function(block) {
 
 Blockly.Python['ultrasonic_lower_than'] = function(block) {
    if (!check_if_top_block_has_hat(block)) return ['', Blockly.Python.ORDER_NONE];
-
    Blockly.Python.definitions_['from_BeeBrain_import_bee'] = 'from BeeBrain import bee';
-
    Blockly.Python.definitions_['from_BeeUltrasonic_import_BeeUltrasonic'] = 'from BeeUltrasonic import BeeUltrasonic';
 
    var port = block.getFieldValue('port');

@@ -8,6 +8,26 @@
     color: "#0f3058", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
         "ultrasonic",
-        "ultrasonic_lower_than"
+        {
+            xml: `
+                <block type="ultrasonic_lower_than">
+                    <value name="distance">
+                        <shadow type="math_number">
+                            <field name="NUM">100</field>
+                        </shadow>
+                    </value>
+                    <value name="port">
+                        <shadow type="math_number">
+                            <field name="NUM">6</field>
+                        </shadow>
+                    </value>
+                    <value name="compare">
+                        <shadow type="math_number">
+                            <field name="NUM">3</field>
+                        </shadow>
+                    </value>
+                </block>
+            `
+        },
     ]
 });
