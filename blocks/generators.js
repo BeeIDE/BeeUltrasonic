@@ -1,3 +1,8 @@
+function check_if_top_block_has_hat(block){
+   if (block.getRootBlock().hat === 'cap') return true;
+   else return false;
+}
+
 Blockly.Python['ultrasonic'] = function(block) {
    if (!check_if_top_block_has_hat(block)) return ['', Blockly.Python.ORDER_NONE];
 
