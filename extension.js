@@ -4,7 +4,7 @@
     author: "BeeBlock",
     category: "Sensors",
     version: "1.0.0",
-    icon: "/static/ultrasonic.png", // Category icon
+    icon: "/static/icon.png", // Category icon
     color: "#0f3058", // Category color (recommend some blocks color)
     blocks: [ // Blocks in Category
         "ultrasonic",
