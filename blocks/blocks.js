@@ -40,7 +40,7 @@ Blockly.defineBlocksWithJsonArray([
         "name": "distance",
       },
       {
-        "type": "field_dropdown",
+        "type": "field_grid_dropdown",
         "name": "port",
         "columns": 2,
         "options": [
