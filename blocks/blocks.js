@@ -5,9 +5,11 @@ Blockly.defineBlocksWithJsonArray([
     "message0": "%2 %1 get distance",
     "args0": [
       {
-        "type": "field_dropdown",
+        "type": "field_grid_dropdown",
         "name": "port",
+        "columns": 2,
         "options": [
+          ["", ""],
           ["PORT2", "PORT2"],
           ["PORT3", "PORT3"],
           ["PORT4", "PORT4"],
@@ -40,7 +42,9 @@ Blockly.defineBlocksWithJsonArray([
       {
         "type": "field_dropdown",
         "name": "port",
+        "columns": 2,
         "options": [
+          ["", ""],
           ["PORT2", "PORT2"],
           ["PORT3", "PORT3"],
           ["PORT4", "PORT4"],
