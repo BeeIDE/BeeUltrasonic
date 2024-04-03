@@ -1,5 +1,5 @@
 ({
-    name: "Ultrasonic", // Category Name
+    name: "Sonar", // Category Name
     description: "Ultrasonic sensor",
     author: "BeeBlock",
     category: "Sensors",
